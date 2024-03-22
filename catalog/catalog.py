@@ -4,7 +4,6 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from marshmallow import Schema, fields
 from sqlalchemy.orm import sessionmaker
-import requests
 import os
 
 
@@ -63,6 +62,12 @@ books_schema = BookSchema(many=True)
 #     db.session.add(book4)
 #     db.session.commit()
 
+@app.route('/catalog/', methods=['GET'])
+def get_bookss():
+    
+    return jsonify({"message" : "hello world"}), 200
+    
+
 
 @app.route('/catalog/books', methods=['GET'])
 def get_books():
@@ -110,6 +115,6 @@ def get_book(book_id):
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    app.run(debug=True)
 
     
