@@ -16,5 +16,10 @@ RUN apt-get install python3 -y
 # install pip3
 RUN apt-get install python3-pip -y
 
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+EXPOSE 6000
+
 # Run client.py when the container launches
-CMD ["python", "order.py"]
+CMD ["python3", "./order.py"]
