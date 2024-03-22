@@ -22,7 +22,7 @@ app.secret_key = '12345678'
 
 # Models
 class Order(db.Model):
-    _tablename_ = 'orders'
+    __tablename__ = 'orders'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     book_id = db.Column(db.Integer, nullable=False)
@@ -69,5 +69,5 @@ def purchase(book_id):
 
 
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000)
