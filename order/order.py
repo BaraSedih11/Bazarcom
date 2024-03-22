@@ -8,8 +8,8 @@ import requests
 import os
 
 
-app = Flask(_name_)
-basedir = os.path.abspath(os.path.dirname(_file_))
+app = Flask(__name__)
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'order_db.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -69,5 +69,5 @@ def purchase(book_id):
 
 
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run(host='0.0.0.0', port=6000)
