@@ -34,6 +34,4 @@ pip install -r requirements.txt
 flask run
 ```
 
-## Contributing
-
-We welcome contributions from the community! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request. Please make sure to follow our [code of conduct](CODE_OF_CONDUCT.md).
+Here the documentation (here)[!]
