@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  catalog_service:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    command: python ./catalog/catalog.py
+
+  order_service:
+    build: .
+    ports:
+      - "6000:6000"
+    volumes:
+      - .:/app
+    command: python ./order/order.py
+
+  gateway_service:
+    build: .
+    ports:
+      - "5050:5050"
+    volumes:
+      - .:/app
+    command: python ./gateway/gateway.py

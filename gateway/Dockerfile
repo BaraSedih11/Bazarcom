@@ -16,5 +16,12 @@ RUN apt-get install python3 -y
 # install pip3
 RUN apt-get install python3-pip -y
 
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+EXPOSE 5050
+
+
 # Run client.py when the container launches
 CMD ["python3", "./gateway.py"]

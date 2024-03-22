@@ -55,7 +55,6 @@ orders_schema = OrderSchema(many=True)
 @app.route('/order/purchase/<int:book_id>', methods=['POST'])
 def purchase(book_id):
     response = requests.post(f'http://127.0.0.1:5000/catalog/books/{book_id}/decreament')
-    print(response.status_code)
     if response.status_code == 200:
 
         order_date = datetime.now()
@@ -70,6 +69,6 @@ def purchase(book_id):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=6000)
+    app.run(host='127.0.0.1', port=6000)
 
 

@@ -47,8 +47,9 @@ def get_book_by_catalog(topic):
 
 @app.route('/gateway/purchase/<int:book_id>', methods=['POST'])
 def purchase(book_id):
-    response = requests.get(f'http://192.168.88.5:6000/order/purchase/{book_id}')
-    if response.status_code == 200:
+    response = requests.post(f'http://127.0.0.1:6000/order/purchase/{book_id}')
+    print(response.json()) 
+    if response.status_code == 200: 
         books = response.json()
         return jsonify(books), 200
     else:
@@ -58,6 +59,6 @@ def purchase(book_id):
 
 if __name__ == '__main__':
     # Specify the port when running the Flask app
-    app.run(host='0.0.0.0', port=5050)
+    app.run(host='127.0.0.1', port=5050)
 
     
