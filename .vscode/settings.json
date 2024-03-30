@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "atomic": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "iterator": "c",
+        "limits": "c",
+        "memory": "c",
+        "mutex": "c",
+        "system_error": "c",
+        "type_traits": "c",
+        "vector": "c",
+        "xiosbase": "c",
+        "xlocale": "c",
+        "xmemory": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "iosfwd": "c"
+    }
+}

@@ -13,15 +13,23 @@ COPY . .
 # RUN apt-get clean && apt-get update -y
 
 
-# install python3
-# RUN apt-get install python3 -y
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
 
-# install pip3
+COPY ../requirements.txt .
+
+# install python dependencies
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
 # RUN apt-get install python3-pip -y
-RUN pip install Flask
-RUN pip install flask_sqlalchemy
-RUN pip install flask_marshmallow
-RUN pip install marshmallow
+# RUN pip install Flask
+# RUN pip install flask_sqlalchemy
+# RUN pip install flask_marshmallow
+# RUN pip install marshmallow
 
 
 EXPOSE 5000

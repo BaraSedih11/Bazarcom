@@ -1,0 +1,2 @@
+FLASK_APP=catalog/catalog
+FLASK_DEBUG=True

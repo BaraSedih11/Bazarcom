@@ -1,26 +1,25 @@
-version: '3'
+version: '3.8'
 
 services:
   catalog_service:
-    build: .
+    image: catalog_service 
     ports:
       - "5000:5000"
     volumes:
-      - .:/app
-    command: python ./catalog/catalog.py
-
-  order_service:
-    build: .
-    ports:
-      - "6000:6000"
-    volumes:
-      - .:/app
-    command: python ./order/order.py
+      - C:/Users/HP/OneDrive/Documents/GitHub/Bazar.com/catalog:/catalog_db
 
   gateway_service:
-    build: .
+    image: gateway_service 
     ports:
       - "5050:5050"
+    depends_on:
+      - catalog_service 
+
+  order_service:
+    image: order_service
+    ports:  
+      - "6000:6000"
+    depends_on:
+      - catalog_service 
     volumes:
-      - .:/app
-    command: python ./gateway/gateway.py
+      - C:/Users/HP/OneDrive/Documents/GitHub/Bazar.com/order:/order_db
