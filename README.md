@@ -1,6 +1,14 @@
 <div align=center>
    
   ![Bazar com](https://github.com/BaraSedih11/Bazar.com/assets/98843912/8eabeccd-49dc-49c8-b5c7-2a78cdec461d)
+
+   ![GitHub repo size](https://img.shields.io/github/repo-size/BaraSedih11/bazar.com) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/BaraSedih11/bazar.com) [![Python Version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
+[![Pip Version](https://img.shields.io/badge/pip-21.0-orange)](https://pypi.org/project/pip/21.0/)
+ ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BaraSedih11/bazar.com/main)
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/BaraSedih/bazar.com/releases/tag/v1.0.0)
+[![Contributors](https://img.shields.io/github/contributors/BaraSedih11/bazar.com)](https://github.com/BaraSedih11/bazar.com/graphs/contributors)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/BaraSedih11/bazar.com)
+  
 </div>
 Welcome to Bazar.com! This repository contains the source code for a simple e-commerce website built with Flask and SQLite.
 
