@@ -27,6 +27,7 @@ Bazar.com is an online marketplace where users can browse and purchase a variety
 
 - Python (Flask)
 - SQLite
+- Docker
 
 ## Getting Started
 
