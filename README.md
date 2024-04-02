@@ -1,5 +1,7 @@
-# Bazar.com
-
+<div align=center>
+   
+  ![Bazar com](https://github.com/BaraSedih11/Bazar.com/assets/98843912/8eabeccd-49dc-49c8-b5c7-2a78cdec461d)
+</div>
 Welcome to Bazar.com! This repository contains the source code for a simple e-commerce website built with Flask and SQLite.
 
 ## About Bazar.com
