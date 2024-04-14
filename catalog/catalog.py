@@ -57,11 +57,10 @@ books_schema = BookSchema(many=True)
 #     db.session.add(book2)
 #     db.session.add(book3)
 #     db.session.add(book4)
-#     db.session.commit()
+#     db.session.commit()       
 
 @app.route('/catalog/', methods=['GET'])
 def get_bookss():
-    
     return jsonify({"message" : "hello world"}), 200
     
 
