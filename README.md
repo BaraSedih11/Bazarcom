@@ -1,18 +1,18 @@
 <div align=center>
    
-  ![Bazar com](https://github.com/BaraSedih11/Bazar.com/assets/98843912/8eabeccd-49dc-49c8-b5c7-2a78cdec461d)
+![Bazarcom 📚](https://github.com/BaraSedih11/Bazarcom/assets/98843912/3ee4f63d-0e06-4431-9c9e-e5969a7c5d46)
 
-   ![GitHub repo size](https://img.shields.io/github/repo-size/BaraSedih11/bazar.com) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/BaraSedih11/bazar.com) [![Python Version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
+   ![GitHub repo size](https://img.shields.io/github/repo-size/BaraSedih11/bazarcom) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/BaraSedih11/bazarcom) [![Python Version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
 [![Pip Version](https://img.shields.io/badge/pip-21.0-orange)](https://pypi.org/project/pip/21.0/)
- ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BaraSedih11/bazar.com/main)
-[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/BaraSedih/bazar.com/releases/tag/v1.0.0)
-[![Contributors](https://img.shields.io/github/contributors/BaraSedih11/bazar.com)](https://github.com/BaraSedih11/bazar.com/graphs/contributors)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/BaraSedih11/bazar.com)
+ ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BaraSedih11/bazarcom/main)
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/BaraSedih/bazarcom/releases/tag/v1.0.0)
+[![Contributors](https://img.shields.io/github/contributors/BaraSedih11/bazarcom)](https://github.com/BaraSedih11/bazarcom/graphs/contributors)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/BaraSedih11/bazarcom)
   
 </div>
-Welcome to Bazar.com! This repository contains the source code for a simple e-commerce website built with Flask and SQLite.
+Welcome to Bazarcom! This repository contains the source code for a simple e-commerce website built with Flask and SQLite.
 
-## About Bazar.com
+## About Bazarcom
 
 Bazar.com is an online marketplace where users can browse and purchase a variety of products conveniently. Whether you're looking for electronics, fashion items, home decor, or more, Bazar.com has something for everyone.
 
@@ -31,7 +31,7 @@ Bazar.com is an online marketplace where users can browse and purchase a variety
 
 ## Getting Started
 
-To get started with Bazar.com, follow these steps:
+To get started with Bazarcom, follow these steps:
 
 <ol>
    
